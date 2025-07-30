@@ -57,6 +57,7 @@ sed -i 's/"路由"/"路由设置"/g' `grep "路由" -rl ./`
 sed -i 's/"备份与升级"/"备份升级"/g' `grep "备份与升级" -rl ./`
 sed -i 's/"FileBrowser"/"文件管理"/g' `grep "FileBrowser" -rl ./`
 sed -i 's/"终端"/"终端命令"/g' `grep "终端" -rl ./`
+sed -i 's/"防火墙"/"防火墙区"/g' `grep "防火墙" -rl ./`
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
